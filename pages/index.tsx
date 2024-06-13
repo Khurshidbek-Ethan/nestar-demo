@@ -33,7 +33,7 @@ const Home: NextPage = () => {
       },
     },
   });
-  console.log("getPropertiesData:", getPropertiesData);
+  console.log("getPropertiesData => :", getPropertiesData);
 
   const device = useDeviceDetect();
   if (device === "mobile") {
